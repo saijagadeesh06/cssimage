@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGES AND DESCRIPTION USING CSS</title>
+    <style>
+        h1{
+            text-align: center;
+            color: purple;
+            text-decoration-line: underline;
+        }
+        .div1{
+            border: 5px solid black;
+            width: 400px;
+            height:320px;
+            box-shadow: 5px 5px 10px orange;
+
+        }
+        img{
+            margin-left: 70px;
+            border-radius: 10%;
+        }
+        h2{
+            color: lawngreen;
+            text-decoration-line: underline;
+        }
+        p{
+            display: none;
+        }
+        h5:active+p{
+            display: block;
+            border: 5px solid navy;
+            background-color: aqua;
+        }
+        .div2{
+            border: 5px solid black;
+            width: 500px;
+            height:310px;
+            box-shadow: 5px 5px 10px red;
+            margin-left: 450px;
+            margin-top: -330px;
+        }
+        .img1{
+            margin-left: 200px;
+            border-radius: 50%;
+        }
+        #h2{
+            color: orange;
+            margin-top: 25px;
+            font-style: italic;
+            text-align: center;
+        }
+        h5:active+.p1{
+            display: block;
+            border: 5px solid gray;
+            background-color: pink;
+            
+        }
+        .p1{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>IMAGES AND DESCRIPTION</h1>
+    <div class="div1">
+        <img src="./assests/mukund.jfif" alt="major mukund"/>
+        <h2> MAJOR MUKUND VARADARAJAN</h2>
+        <h5>click here for more...</h5>
+        <p>Major Mukund Varadarajan AC (12 April 1983 – 25 April 2014) was an Indian Army officer and a recipient of the Ashoka Chakra. Mukund, a commissioned officer in the Indian Army's Rajput Regiment, was posthumously awarded the Ashok Chakra for his actions during a counterterrorism operation while on deputation to the 44th Rashtriya Rifles battalion in Jammu and Kashmir. His biographical film in Tamil, Amaran, was released on the occasion of Diwali, 31 October 2024.</p>
+
+
+    </div>
+    <div class="div2">
+        <img class="img1" src="./assests/Sandeep.jpg" alt="majorsandeep" height="200px"/>
+        <h2 id="h2"> MAJOR SANDEEP UNNIKRISHNAN</h2>
+        <h5>click here for more...</h5>
+        <p class="p1">Major Sandeep Unnikrishnan, AC (15 March 1977 – 28 November 2008) was an Indian Army officer, who was serving in the 51 Special Action Group of the National Security Guard on deputation. He was martyred during the November 2008 Mumbai attacks[2] and was posthumously awarded the Ashoka Chakra, India's highest peacetime gallantry award, on 26 January 2009.[3]</p>
+    </div>
+    
+</body>
+</html>
